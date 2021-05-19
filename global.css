@@ -1,0 +1,150 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@400;700&display=swap');
+
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/* done reset */
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='80' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(220, 13%, 18%, 1)'/><path d='M-10 5l20 10L30 5l20 10'  stroke-linecap='square' stroke-width='1' stroke='hsla(286, 60%, 67%, 1)' fill='none'/><path d='M-10 25l20 10 20-10 20 10'  stroke-linecap='square' stroke-width='1' stroke='hsla(7, 69%, 61%, 1)' fill='none'/><path d='M-10 45l20 10 20-10 20 10'  stroke-linecap='square' stroke-width='1' stroke='hsla(207, 82%, 66%, 1)' fill='none'/><path d='M-10 65l20 10 20-10 20 10'  stroke-linecap='square' stroke-width='1' stroke='hsla(39, 67%, 69%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+}
+
+body {
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+input[type="checkbox"],
+button {
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+
+input {
+  padding: .35rem;
+}
+
+h1, 
+h2,
+h3,
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 4rem;
+  color: rgb(224, 102, 86);
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.666rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+label,
+input,
+button, 
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 110%;
+  }
+}
