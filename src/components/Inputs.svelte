@@ -3,6 +3,19 @@
     import Ed from './Ed.svelte';
     import Work from './Work.svelte';
 </script>
-<Personal />
-<Ed />
-<Work />
+<div class="inputs-wrapper">
+    <Personal />
+    <Ed />
+    <Work />
+</div>
+<style>
+    .inputs-wrapper {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        overflow: auto;
+        width: 90%;
+        margin: 0 auto;
+    }
+</style>

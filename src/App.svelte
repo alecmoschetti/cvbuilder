@@ -2,6 +2,7 @@
 	import Grid from './components/Grid.svelte'
 	import Template from './components/Template.svelte';
 	import Modal from './components/Modal.svelte';
+	import Inputs from './components/Inputs.svelte'
 	let open = false;
 </script>
 
@@ -12,7 +13,11 @@
 	<section>
 		<button class="modal-button" on:click={() => open = true}>Add / Edit Information</button>
 		{#if open === true}
-			<Modal on:click={() => open = false}/>
+			<Modal on:click={() => open = false}>
+				<div slot="content" class="slot-content">
+					<Inputs />
+				</div>
+			</Modal>
 		{/if}
 	</section>
 	<main>
@@ -21,12 +26,6 @@
 </Grid>
 
 <style>
-	h1 {
-		font-family: 'Raleway', sans-serif;
-		font-weight: 700;
-		font-size: 4.5rem;
-		color: rgb(224, 102, 86);
-	}
 	main {
 		width: 100%;
 		height: 100%;
@@ -38,5 +37,8 @@
 		border: none;
 		border-radius: 4px;
 		padding: 1rem;
+	}
+	.slot-content {
+		width: 100%;
 	}
 </style>

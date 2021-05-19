@@ -77,6 +77,8 @@ th {
   padding: 0;
 }
 
+/* done reset */
+
 html, body {
 	position: relative;
 	width: 100%;
@@ -92,9 +94,45 @@ a {
   text-decoration: none;
 }
 
-input {
+input,
+input[type="checkbox"],
+button {
   border: none;
   outline: none;
   border-radius: 4px;
-  padding: .25rem;
+}
+
+input {
+  padding: .35rem;
+}
+
+h1, 
+h2,
+h3,
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 4.5rem;
+  color: rgb(224, 102, 86);
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+label,
+input,
+button, 
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 110%;
+  }
 }
