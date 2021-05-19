@@ -37,6 +37,7 @@
 		border: none;
 		border-radius: 4px;
 		padding: 1rem;
+		font-size: 1.1rem;
 	}
 	.slot-content {
 		width: 100%;

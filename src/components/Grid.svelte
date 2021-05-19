@@ -29,7 +29,7 @@
 
 @media screen and (min-width: 900px) {
 	.wrapper {
-		width: 75%;
+		width: 85%;
 	}
 }
 </style>

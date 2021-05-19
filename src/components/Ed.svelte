@@ -23,9 +23,9 @@
     </div>
     {#each $edArray as ed, i}
     <div class="inputs-wrapper">
-        <label for="position">School / Training:</label>
+        <label for="position">School / Program:</label>
         <input type="text" name="position" bind:value={ed.school} placeholder="School" disabled={ed.editable}>
-        <label for="company">Focus / Program:</label>
+        <label for="company">Focus / Training:</label>
         <input type="text" name="company" bind:value={ed.focus} placeholder="Degree / Certification" disabled={ed.editable}>
         <label for="start">Date started:</label>
         <input type="month" name="start" bind:value={ed.start} placeholder="from" disabled={ed.editable}>
